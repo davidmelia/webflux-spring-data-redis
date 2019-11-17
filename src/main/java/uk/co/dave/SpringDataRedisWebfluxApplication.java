@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebfluxBlockingExampleApplication {
+public class SpringDataRedisWebfluxApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebfluxBlockingExampleApplication.class, args);
+		SpringApplication.run(SpringDataRedisWebfluxApplication.class, args);
 	}
 
 }
